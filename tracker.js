@@ -4,7 +4,7 @@ if (!user) {
   alert("Please login first");
   location.href = "index.html";
 }
-
+document.getElementById("userName").innerText = user;
 let data = JSON.parse(localStorage.getItem(user)) || [];
 
 let table=document.getElementById('table');

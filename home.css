@@ -66,36 +66,40 @@ body {
     button:hover {
       background:black;
     }
-    @media (max-width: 480px) {
-      h3 {
-        font-size: 22px;
-      }
+    @media (max-width:480px){
 
-      .card {
-        width: 90%;
-        padding: 30px 20px;
-      }
+  h3{
+    font-size:22px;
+  }
 
-      .circle {
-        width: 200px;
-        height: 200px;
-      }
+  .card{
+    width:90%;
+    padding:30px 20px;
+  }
 
-      .circle1 {
-        top: -80px;
-        left: -80px;
-      }
+  .circle{
+    width:200px;
+    height:200px;
+  }
 
-      .circle2 {
-        bottom: -80px;
-        right: -80px;
-      }
-      input {
-        padding: 10px;
-      }
+  .circle1{
+    top:-80px;
+    left:-80px;
+  }
 
-      button {
-        padding: 10px;
-        font-size: 15px;
-      }
-    }
+  .circle2{
+    bottom:-80px;
+    right:-80px;
+  }
+
+  input{
+    padding:10px;
+    font-size:16px;
+  }
+
+  button{
+    padding:12px;
+    font-size:16px;
+  }
+
+}
